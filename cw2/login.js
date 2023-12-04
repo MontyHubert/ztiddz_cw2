@@ -17,7 +17,7 @@ loginButton.addEventListener("click", (e) => {
         alert("You have successfully logged in.");
         location.reload();
     } else {
-        // Jeśli pole nazwy użytkownika lub hasła nie jest puste, ustawienie widoczności komunikatu o błędzie
+        // Jeśli pole nazwy użytkownika lub hasła nie jest puste, ustawienie komunikatu o błędzie
         loginErrorMsg.style.opacity = 1;
     }
 })
